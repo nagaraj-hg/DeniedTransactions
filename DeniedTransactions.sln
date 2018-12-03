@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DeniedTransactions", "DeniedTransactions\DeniedTransactions.dwproj", "{0DA27434-F640-4B4D-8E6A-9987BCCA108F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA27434-F640-4B4D-8E6A-9987BCCA108F}.Development|Default.ActiveCfg = Development
+		{0DA27434-F640-4B4D-8E6A-9987BCCA108F}.Development|Default.Build.0 = Development
+		{0DA27434-F640-4B4D-8E6A-9987BCCA108F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B51F3D12-8C20-49D5-91D5-07B64FAFAA89}
+	EndGlobalSection
+EndGlobal

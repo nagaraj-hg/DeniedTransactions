@@ -1,0 +1,753 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Edenred DW</ID>
+  <Name>Edenred DW</Name>
+  <CreatedTimestamp>2018-11-26T11:35:03.996667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2018-11-26T11:35:03.996667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="34" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2719" scrolltop="-7885" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="39344" y="19209" backcolor="16185078" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_Merchant" left="11426" top="1813" logicalid="17" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1812" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b000014070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_v_Merchant" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_date" left="0" top="11629" logicalid="18" controlid="2" masterid="0" hint1="0" hint2="0" width="3426" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000620d000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_v_date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_FactDeniedTransactions" left="10087" top="6904" logicalid="19" controlid="3" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000f310000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_FactDeniedTransactions" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_DimCustomer" left="18603" top="2416" logicalid="20" controlid="4" masterid="0" hint1="0" hint2="0" width="3942" height="4392" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000660f000028110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_DimCustomer" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14126" top="5863" logicalid="21" controlid="5" masterid="0" hint1="0" hint2="0" width="4777" height="2191" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_DimCustomer1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="26" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18603" y="6262" />
+                    <point x="16515" y="6262" />
+                    <point x="16515" y="7754" />
+                    <point x="14426" y="7754" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11406" top="3126" logicalid="22" controlid="6" masterid="0" hint1="0" hint2="0" width="820" height="4078" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-v_Merchant]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11826" y="3625" />
+                    <point x="11826" y="6481" />
+                    <point x="11706" y="6481" />
+                    <point x="11706" y="6904" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3126" top="9104" logicalid="23" controlid="7" masterid="0" hint1="0" hint2="0" width="7261" height="3225" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-v_date]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="11" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3426" y="11929" />
+                    <point x="6584" y="11929" />
+                    <point x="6584" y="9404" />
+                    <point x="10087" y="9404" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_Time" left="632" top="8452" logicalid="24" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1416" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b000088050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3332" top="7454" logicalid="25" controlid="9" masterid="0" hint1="0" hint2="0" width="7055" height="2106" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_Time]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="3" sourceattachpoint="13" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3632" y="9160" />
+                    <point x="9343" y="9160" />
+                    <point x="9343" y="7754" />
+                    <point x="10087" y="7754" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14126" top="5313" logicalid="26" controlid="10" masterid="0" hint1="0" hint2="0" width="4777" height="2191" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_DimCustomer]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="24" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18603" y="5712" />
+                    <point x="16515" y="5712" />
+                    <point x="16515" y="7204" />
+                    <point x="14426" y="7204" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_Type" left="9233" top="0" logicalid="27" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1085" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b00003d040000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_Type" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_Result" left="3286" top="4045" logicalid="28" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="1085" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000b80b00003d040000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_Result" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="V_AcceptanceProfile" left="12800" top="0" logicalid="29" controlid="13" masterid="0" hint1="0" hint2="0" width="4194" height="1085" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000a0000621000003d040000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Denied_V_AcceptanceProfile" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="5986" top="4188" logicalid="30" controlid="14" masterid="0" hint1="0" hint2="0" width="4401" height="3316" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_Result]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="3" sourceattachpoint="11" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6286" y="4587" />
+                    <point x="8649" y="4587" />
+                    <point x="8649" y="7204" />
+                    <point x="10087" y="7204" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12848" top="586" logicalid="31" controlid="15" masterid="0" hint1="0" hint2="0" width="808" height="6618" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_AcceptanceProfile]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="3" sourceattachpoint="1" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13247" y="1085" />
+                    <point x="13247" y="3994" />
+                    <point x="13356" y="3994" />
+                    <point x="13356" y="6904" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10306" top="586" logicalid="32" controlid="16" masterid="0" hint1="0" hint2="0" width="827" height="6618" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[V_FactDeniedTransactions-V_Type]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="3" sourceattachpoint="5" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10733" y="1085" />
+                    <point x="10733" y="3994" />
+                    <point x="10606" y="3994" />
+                    <point x="10606" y="6904" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-2719</DiagramViewPortLeft>
+            <DiagramViewPortTop>-7885</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Edenred DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Edenred_x0020_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Edenred_x0020_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Denied_v_Merchant" msprop:DbTableName="v_Merchant" msprop:FriendlyName="v_Merchant" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MerNum" msdata:ReadOnly="true" msprop:DbColumnName="MerNum" msprop:FriendlyName="MerNum">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerName" msdata:ReadOnly="true" msprop:DbColumnName="MerName" msprop:FriendlyName="MerName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerCat" msdata:ReadOnly="true" msprop:DbColumnName="MerCat" msprop:FriendlyName="MerCat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_v_date" msprop:DbTableName="v_date" msprop:FriendlyName="v_date" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fulldate" msprop:DbColumnName="fulldate" msprop:FriendlyName="fulldate" type="xs:dateTime" />
+                  <xs:element name="datename" msprop:DbColumnName="datename" msprop:FriendlyName="datename" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="datenameus" msprop:DbColumnName="datenameus" msprop:FriendlyName="datenameus" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="datenameeu" msprop:DbColumnName="datenameeu" msprop:FriendlyName="datenameeu" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dayofweek" msprop:DbColumnName="dayofweek" msprop:FriendlyName="dayofweek" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="daynameofweek" msprop:DbColumnName="daynameofweek" msprop:FriendlyName="daynameofweek" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dayofmonth" msprop:DbColumnName="dayofmonth" msprop:FriendlyName="dayofmonth" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="dayofyear" msprop:DbColumnName="dayofyear" msprop:FriendlyName="dayofyear" type="xs:short" minOccurs="0" />
+                  <xs:element name="weekdayweekend" msprop:DbColumnName="weekdayweekend" msprop:FriendlyName="weekdayweekend" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="weekofyear" msprop:DbColumnName="weekofyear" msprop:FriendlyName="weekofyear" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="monthname" msprop:DbColumnName="monthname" msprop:FriendlyName="monthname" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="monthofyear" msprop:DbColumnName="monthofyear" msprop:FriendlyName="monthofyear" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="islastdayofmonth" msprop:DbColumnName="islastdayofmonth" msprop:FriendlyName="islastdayofmonth" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="calendarquarter" msprop:DbColumnName="calendarquarter" msprop:FriendlyName="calendarquarter" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="calendaryear" msprop:DbColumnName="calendaryear" msprop:FriendlyName="calendaryear" type="xs:short" minOccurs="0" />
+                  <xs:element name="calendaryearmonth" msprop:DbColumnName="calendaryearmonth" msprop:FriendlyName="calendaryearmonth" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="calendaryearqtr" msprop:DbColumnName="calendaryearqtr" msprop:FriendlyName="calendaryearqtr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fiscalmonthofyear" msprop:DbColumnName="fiscalmonthofyear" msprop:FriendlyName="fiscalmonthofyear" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="fiscalquarter" msprop:DbColumnName="fiscalquarter" msprop:FriendlyName="fiscalquarter" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="fiscalyear" msprop:DbColumnName="fiscalyear" msprop:FriendlyName="fiscalyear" type="xs:int" minOccurs="0" />
+                  <xs:element name="fiscalyearmonth" msprop:DbColumnName="fiscalyearmonth" msprop:FriendlyName="fiscalyearmonth" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fiscalyearqtr" msprop:DbColumnName="fiscalyearqtr" msprop:FriendlyName="fiscalyearqtr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="auditkey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:DbColumnName="auditkey" msprop:FriendlyName="auditkey" type="xs:int" />
+                  <xs:element name="CalendarYearWeek" msdata:ReadOnly="true" msprop:DbColumnName="CalendarYearWeek" msprop:FriendlyName="CalendarYearWeek" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="YearWeek" msprop:DbColumnName="YearWeek" msprop:FriendlyName="YearWeek" type="xs:short" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_FactDeniedTransactions" msprop:DbTableName="V_FactDeniedTransactions" msprop:FriendlyName="V_FactDeniedTransactions" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TxnId" msprop:DbColumnName="TxnId" msprop:FriendlyName="TxnId">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PrcCode" msprop:DbColumnName="PrcCode" msprop:FriendlyName="PrcCode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductCode" msdata:ReadOnly="true" msprop:DbColumnName="ProductCode" msprop:FriendlyName="ProductCode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AccNo" msprop:DbColumnName="AccNo" msprop:FriendlyName="AccNo">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CrdSn" msprop:DbColumnName="CrdSn" msprop:FriendlyName="CrdSn" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="localTS" msdata:ReadOnly="true" msprop:DbColumnName="localTS" msprop:FriendlyName="localTS" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="type" msprop:DbColumnName="type" msprop:FriendlyName="type">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AuthAmt_Val" msprop:DbColumnName="AuthAmt_Val" msprop:FriendlyName="AuthAmt_Val" type="xs:decimal" />
+                  <xs:element name="AuthAmtOrig_Val" msprop:DbColumnName="AuthAmtOrig_Val" msprop:FriendlyName="AuthAmtOrig_Val" type="xs:decimal" />
+                  <xs:element name="AuthAmtOrig_Curr" msprop:DbColumnName="AuthAmtOrig_Curr" msprop:FriendlyName="AuthAmtOrig_Curr">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerCntry" msprop:DbColumnName="MerCntry" msprop:FriendlyName="MerCntry" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerNum" msdata:ReadOnly="true" msprop:DbColumnName="MerNum" msprop:FriendlyName="MerNum" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerName" msprop:DbColumnName="MerName" msprop:FriendlyName="MerName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MerCat" msprop:DbColumnName="MerCat" msprop:FriendlyName="MerCat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AcceptanceProfileReference" msprop:DbColumnName="AcceptanceProfileReference" msprop:FriendlyName="AcceptanceProfileReference" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AcceptanceProfileMatching" msprop:DbColumnName="AcceptanceProfileMatching" msprop:FriendlyName="AcceptanceProfileMatching" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cus_code" msprop:DbColumnName="Cus_Code" msprop:FriendlyName="Cus_Code" type="xs:int" minOccurs="0" />
+                  <xs:element name="UserCode" msprop:DbColumnName="UserCode" msprop:FriendlyName="UserCode" type="xs:long" minOccurs="0" />
+                  <xs:element name="LocalHour" msprop:DbColumnName="LocalHour" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ResultCode" msprop:DbColumnName="ResultCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_DimCustomer" msprop:DbTableName="V_DimCustomer" msprop:FriendlyName="V_DimCustomer" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Cus_Code" msprop:DbColumnName="Cus_Code" msprop:FriendlyName="Cus_Code" type="xs:int" />
+                  <xs:element name="Cus_name" msprop:DbColumnName="Cus_name" msprop:FriendlyName="Cus_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="product_description" msprop:DbColumnName="product_description" msprop:FriendlyName="product_description" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sales_rep" msprop:DbColumnName="sales_rep" msprop:FriendlyName="sales_rep" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Beginning_x0020_Contract_x0020_Date" msprop:DbColumnName="Beginning Contract Date" msprop:FriendlyName="Beginning Contract Date" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Closing_x0020_Contract_x0020_Date" msprop:DbColumnName="Closing Contract Date" msprop:FriendlyName="Closing Contract Date" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="organisation_x0020_number" msprop:DbColumnName="organisation number" msprop:FriendlyName="organisation number" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cus_name_group" msprop:DbColumnName="cus_name_group" msprop:FriendlyName="cus_name_group" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="billing_x0020_city" msprop:DbColumnName="billing city" msprop:FriendlyName="billing city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="shipping_x0020_city" msprop:DbColumnName="shipping city" msprop:FriendlyName="shipping city" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ProductCode" msprop:DbColumnName="ProductCode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cus_code_Group" msprop:DbColumnName="Cus_code_Group" type="xs:int" minOccurs="0" />
+                  <xs:element name="CustNameCode" msprop:DbColumnName="CustNameCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="101" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CustGroupNameCode" msprop:DbColumnName="CustGroupNameCode" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="101" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_Time" msprop:DbTableName="V_Time" msprop:FriendlyName="V_Time" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="hour_code" msprop:DbColumnName="hour_code" msprop:FriendlyName="hour_code">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AMPM" msprop:DbColumnName="AMPM" msprop:FriendlyName="AMPM">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_Type" msprop:DbTableName="V_Type" msprop:FriendlyName="V_Type" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TYPE" msprop:DbColumnName="TYPE" msprop:FriendlyName="TYPE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_Result" msprop:DbTableName="V_Result" msprop:FriendlyName="V_Result" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ResultCode" msprop:DbColumnName="ResultCode" msprop:FriendlyName="ResultCode">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Denied_V_AcceptanceProfile" msprop:DbTableName="V_AcceptanceProfile" msprop:FriendlyName="V_AcceptanceProfile" msprop:DbSchemaName="Denied" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="acceptanceProfileMatching" msprop:DbColumnName="acceptanceProfileMatching" msprop:FriendlyName="acceptanceProfileMatching">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_v_Merchant" />
+          <xs:field xpath="MerNum" />
+        </xs:unique>
+        <xs:unique name="Denied_v_date_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_v_date" />
+          <xs:field xpath="fulldate" />
+        </xs:unique>
+        <xs:unique name="Denied_V_DimCustomer_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_V_DimCustomer" />
+          <xs:field xpath="Cus_Code" />
+          <xs:field xpath="ProductCode" />
+        </xs:unique>
+        <xs:unique name="Denied_V_Time_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_V_Time" />
+          <xs:field xpath="hour_code" />
+        </xs:unique>
+        <xs:unique name="Denied_V_Type_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_V_Type" />
+          <xs:field xpath="TYPE" />
+        </xs:unique>
+        <xs:unique name="Denied_V_Result_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_V_Result" />
+          <xs:field xpath="ResultCode" />
+        </xs:unique>
+        <xs:unique name="Denied_V_AcceptanceProfile_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Denied_V_AcceptanceProfile" />
+          <xs:field xpath="acceptanceProfileMatching" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="V_FactDeniedTransactions-V_DimCustomer1" msdata:parent="Denied_V_DimCustomer" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="Cus_Code" msdata:childkey="Cus_code" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-v_Merchant" msdata:parent="Denied_v_Merchant" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="MerNum" msdata:childkey="MerNum" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-v_date" msdata:parent="Denied_v_date" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="fulldate" msdata:childkey="localTS" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-V_Time" msdata:parent="Denied_V_Time" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="hour_code" msdata:childkey="LocalHour" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-V_DimCustomer" msdata:parent="Denied_V_DimCustomer" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="ProductCode" msdata:childkey="ProductCode" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-V_Result" msdata:parent="Denied_V_Result" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="ResultCode" msdata:childkey="ResultCode" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-V_AcceptanceProfile" msdata:parent="Denied_V_AcceptanceProfile" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="acceptanceProfileMatching" msdata:childkey="AcceptanceProfileMatching" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="V_FactDeniedTransactions-V_Type" msdata:parent="Denied_V_Type" msdata:child="Denied_V_FactDeniedTransactions" msdata:parentkey="TYPE" msdata:childkey="type" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Edenred_x0020_DW xmlns="" />
+  </Schema>
+</DataSourceView>
